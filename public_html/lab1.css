@@ -65,29 +65,6 @@ p.side
 	font-size: 15px;
 }
 
-/*table elements*/
-table
-{
-	background-color: #cc2900;
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	color: #cfe6df;
-	border-collapse: collapse;
-}
-table td,th
-{
-	border-width: 2px;
-	border-color: darkblue;
-	border-style: solid;
-	padding: 3px;
-}
-thead
-{
-	background-color: black;
-	color: whitesmoke;
-}
-
 /*dropdown menu*/
 .dropdown
 {
@@ -108,26 +85,13 @@ thead
 {
 	display: block;
 }
-textarea
-{
-	border: .5em solid black;
-	background-color: #c7390abb;
-	color: white;
-	width: 20em;
-	height: 10em;
-	outline: none;
-	resize: none;
-}
-textarea::placeholder
-{
-	color: turquoise;
-}
+
 form
 {
 	background-color: #661a00;
 	color: #ffd9cc;
-	width: 30em;
-	height: 20em;
+	width: 20em;
+	height: 10em;
 	
 }
 
